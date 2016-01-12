@@ -11,8 +11,9 @@
 		F14C87171C44991F00D9AC7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C87161C44991F00D9AC7C /* ViewController.swift */; };
 		F14C87191C44991F00D9AC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14C87181C44991F00D9AC7C /* Assets.xcassets */; };
 		F14C871C1C44991F00D9AC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14C871A1C44991F00D9AC7C /* Main.storyboard */; };
-		F14C87271C44991F00D9AC7C /* memoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C87261C44991F00D9AC7C /* memoriaTests.swift */; };
+		F14C87271C44991F00D9AC7C /* tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C87261C44991F00D9AC7C /* tarea.swift */; };
 		F14C87321C44991F00D9AC7C /* memoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C87311C44991F00D9AC7C /* memoriaUITests.swift */; };
+		F14C87411C449A3800D9AC7C /* memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C87401C449A3800D9AC7C /* memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +41,13 @@
 		F14C871B1C44991F00D9AC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F14C871D1C44991F00D9AC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F14C87221C44991F00D9AC7C /* memoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F14C87261C44991F00D9AC7C /* memoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriaTests.swift; sourceTree = "<group>"; };
+		F14C87261C44991F00D9AC7C /* tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarea.swift; sourceTree = "<group>"; };
 		F14C87281C44991F00D9AC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F14C872D1C44991F00D9AC7C /* memoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14C87311C44991F00D9AC7C /* memoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriaUITests.swift; sourceTree = "<group>"; };
 		F14C87331C44991F00D9AC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14C873F1C44994000D9AC7C /* mem tar 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "mem tar 1.playground"; path = "memoria/mem tar 1.playground"; sourceTree = "<group>"; };
+		F14C87401C449A3800D9AC7C /* memo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		F14C87081C44991F00D9AC7C = {
 			isa = PBXGroup;
 			children = (
+				F14C873F1C44994000D9AC7C /* mem tar 1.playground */,
 				F14C87131C44991F00D9AC7C /* memoria */,
 				F14C87251C44991F00D9AC7C /* memoriaTests */,
 				F14C87301C44991F00D9AC7C /* memoriaUITests */,
@@ -100,6 +104,7 @@
 				F14C87181C44991F00D9AC7C /* Assets.xcassets */,
 				F14C871A1C44991F00D9AC7C /* Main.storyboard */,
 				F14C871D1C44991F00D9AC7C /* Info.plist */,
+				F14C87401C449A3800D9AC7C /* memo.swift */,
 			);
 			path = memoria;
 			sourceTree = "<group>";
@@ -107,7 +112,7 @@
 		F14C87251C44991F00D9AC7C /* memoriaTests */ = {
 			isa = PBXGroup;
 			children = (
-				F14C87261C44991F00D9AC7C /* memoriaTests.swift */,
+				F14C87261C44991F00D9AC7C /* tarea.swift */,
 				F14C87281C44991F00D9AC7C /* Info.plist */,
 			);
 			path = memoriaTests;
@@ -254,6 +259,7 @@
 			files = (
 				F14C87171C44991F00D9AC7C /* ViewController.swift in Sources */,
 				F14C87151C44991F00D9AC7C /* AppDelegate.swift in Sources */,
+				F14C87411C449A3800D9AC7C /* memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F14C87271C44991F00D9AC7C /* memoriaTests.swift in Sources */,
+				F14C87271C44991F00D9AC7C /* tarea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
